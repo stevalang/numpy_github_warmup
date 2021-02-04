@@ -1,18 +1,19 @@
 import numpy as np
 
-def only_odds(arr):
+def greater_than_mean(arr):
     '''
-    Takes an array of integers and returns
-    a numpy array containing only the odd elements
+    Takes an array of numbers and returns
+    only the values in that array which are
+    greater than the mean.
 
     Example:
 
         arr = np.array([0,1,2,3,4,5])
-        only_odds(arr)
+        greater_than_mean(arr)
 
     Would return:
 
-        np.array([1,3,5])
+        np.array([3,4,5])
     '''
     # your code here!
     pass
@@ -20,4 +21,4 @@ def only_odds(arr):
 if __name__ == '__main__':
     # Test your code here!
     arr = np.array([0,1,2,3,4,5])
-    print(only_odds(arr))
+    print(greater_than_mean(arr))

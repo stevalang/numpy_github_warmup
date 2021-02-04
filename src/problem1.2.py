@@ -1,23 +1,23 @@
 import numpy as np
 
-def normalize(arr):
+def only_odds(arr):
     '''
-    Takes a numpy array and normalizes it - compressing 
-    the values into the range [0, 1]
+    Takes an array of integers and returns
+    a numpy array containing only the odd elements
 
     Example:
 
-        arr = np.array([5, 6, 7, 8, 9, 10])
-        normalize(arr)
+        arr = np.array([0,1,2,3,4,5])
+        only_odds(arr)
 
     Would return:
 
-        np.array([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
+        np.array([1,3,5])
     '''
     # your code here!
     pass
 
 if __name__ == '__main__':
     # Test your code here!
-    arr = np.array([0, 2, 4, 6, 8, 10])
-    print(normalize(arr))
+    arr = np.array([0,1,2,3,4,5])
+    print(only_odds(arr))
