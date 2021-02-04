@@ -7,7 +7,7 @@ def normalize(arr):
 
     Example:
 
-        arr = np.array([5, 6, 7, 8, 9,0 10])
+        arr = np.array([5, 6, 7, 8, 9, 10])
         normalize(arr)
 
     Would return:
