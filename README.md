@@ -72,17 +72,18 @@ the github collaboration process!
 		git pull
 		```
 
-4)	Complete problem 1.2 located in `src/problem1.2.py` with the roles reversed.
+4)	Complete problem 1.2 located in `src/problem1.2.py`, but this time with **partner a** driving and **partner b** navigating.
 	- **partner a** will push the solution to their own repo
 	- **partner b** will pull the solution from **partner a**'s repo
 		```bash
 		git pull <name> main
 		```
+
 ## Part 2
 
 Complete the steps from part 1 with the roles of **partner a** and **partner b** reversed, solving problems 2.1 and 2.2
 
-- **Partner a** adds **partner b**'s repo as a remote location, and drives first
+- **Partner a** adds **partner b**'s **GitHub** repo as a remote location, and drives first
 - **Partner b** adds **partner a** as a contributor on their **GitHub** repo, and navigates first
 
 ## Part 3
@@ -93,7 +94,7 @@ Finally, both partners do a:
 git push origin main
 ```
 
-so that everyone has their own backup of the entire project history.
+so that everyone has their own backup of the entire project history!
 
 ## Part 4 
 
