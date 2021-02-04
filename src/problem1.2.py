@@ -15,7 +15,9 @@ def only_odds(arr):
         np.array([1,3,5])
     '''
     # your code here!
-    pass
+    arr = arr[arr % 2 != 0]
+    print(arr)
+    return arr
 
 if __name__ == '__main__':
     # Test your code here!
