@@ -22,8 +22,16 @@ def border_with_zeros(arr):
             [0,0,0,0]
         ])
     '''
+
     # your code here!
-    pass
+    shape = arr.shape
+    print(shape)
+    arr1 = np.zeros([shape[0]+ 2, shape[1] + 2])
+    arr1[1:-1,1:-1] = arr
+    int_array = arr1.astype(int)
+    print(int_array)
+
+
 
 if __name__ == '__main__':
     # Test your code here!
