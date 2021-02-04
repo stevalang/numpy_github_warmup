@@ -19,7 +19,7 @@ the github collaboration process!
 	- I suggest you create a subfolder for warmups in your main galvanize directory to clone this repo into.
 		Navigate to your galvanize directory and do the following:
 		
-		```
+		```bash
 		mkdir warmups
 		cd warmups
 		git clone https://github.com/<your github username>/numpy_github_warmup.git
@@ -27,7 +27,7 @@ the github collaboration process!
 
 3)	Both partners navigate into their local repo and open vsCode
 
-	```
+	```bash
 	cd numpy_github_warmup
 	code .
 	```
@@ -45,20 +45,20 @@ the github collaboration process!
 2)	**partner b** adds **partner a**'s repo as a remote location on their local machine
 	- This can be done with the command 
 		
-		```
+		```bash
 		git remote add <name> <url>
 		```
 
 	- For example: 
 
-		```
+		```bash
 		git remote add zack https://github.com/zackmagnotti/numpy_github_warmup.git
 		```
 
 3)	Complete problem 1.1 located in `src/problem1.1.py` with **partner b** driving and **partner a** navigating.
 	- **partner b** will need to `add`, `commit`, and `push` the solution to **partner a**'s repo
 
-		```
+		```bash
 		git add src/problem1.1.py
 		git commit -m 'solutions for problem 1.1'
 		git push <name> main
@@ -75,7 +75,7 @@ the github collaboration process!
 4)	Complete problem 1.2 located in `src/problem1.2.py` with the roles reversed.
 	- **partner a** will push the solution to their own repo
 	- **partner b** will pull the solution from **partner a**'s repo
-		```
+		```bash
 		git pull <name> main
 		```
 ## Part 2
