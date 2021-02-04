@@ -2,7 +2,7 @@ import numpy as np
 
 def normalize(arr):
     '''
-    Takes a numpy array and normalizes it - compressing 
+    Takes a numpy array and normalizes it - compressing
     the values into the range [0, 1]
 
     Example:
